@@ -31,7 +31,7 @@ install() {
 	local binary="terragrunt-atlantis-config_${version}_${platform}_${arch}"
 
 	local download_url
-	download_url="https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v${version}/${binary}.tar.gz"
+	download_url="https://github.com/transcend-io/terragrunt-atlantis-config/releases/download/v${version}/${binary}"
 
 	mkdir -p "${bin_install_path}"
 
