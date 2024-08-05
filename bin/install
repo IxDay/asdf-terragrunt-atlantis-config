@@ -39,7 +39,7 @@ install() {
 
 	pushd "${bin_install_path}" >/dev/null
 
-	curl -sL "${download_url}" | tar zx -O "${binary}/${binary}" > "${bin_install_path}/terragrunt-atlantis-config"
+	curl -sL "${download_url}" > "${bin_install_path}/terragrunt-atlantis-config"
 
 	chmod +x "${bin_install_path}/terragrunt-atlantis-config"
 
